@@ -13,8 +13,10 @@ l = num.length
 num [3] = 6 //num.push(6)
 console.log(num)
 console.log(l)
-console.log(s)
 
-for(let pos=0; pos < num.length; pos++) {
+/*for(let pos=0; pos < num.length; pos++) {
     console.log(num[pos])
-}
+}*/
+
+let pos = num.indexOf(0)
+console.log(`${pos}`)
