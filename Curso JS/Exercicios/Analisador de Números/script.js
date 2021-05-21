@@ -41,8 +41,9 @@ function finalizar() {
         var maior = valores[0]
         var menor = valores[0]
         var soma = 0
-        var média = 0
+        var media = 0
         for(var pos in valores) {
+            soma += valores[pos]
             if (valores[pos] > maior)
                 maior = valores[pos]
             if (valores[pos] < menor)
